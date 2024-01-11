@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg2"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE / DELETE"
+        android:fontFamily="@font/robotoslab_black"
+        android:textSize="28dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/idData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aaa"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <EditText
+        android:id="@+id/usernameUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Username" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <EditText
+        android:id="@+id/passwordUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_edittext"
+        android:paddingLeft="10dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <EditText
+        android:id="@+id/nameUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_edittext"
+        android:paddingLeft="10dp"
+        android:hint="Name" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <EditText
+        android:id="@+id/emailUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_edittext"
+        android:paddingLeft="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        android:text="Update" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        android:text="Delete" />
+
+</LinearLayout>

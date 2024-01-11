@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "228037309260",
+    "project_id": "uasss-8f8ef",
+    "storage_bucket": "uasss-8f8ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228037309260:android:52f64d7d9e94e7f5a655e9",
+        "android_client_info": {
+          "package_name": "com.fadlan.api"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEydSB6L1Qbhy2miCOB92RcvCXZqWn8gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
